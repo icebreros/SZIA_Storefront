@@ -1,0 +1,214 @@
+<!-- Color Grading:(Default Comment: Pink) -->
+<!-- TODO:  "TODO": Yellow::TO do list  -->
+<!-- * "*":Operation Task   -->
+<!-- ? "?":Questions -->
+<!-- ! "!":Alert  -->
+
+<!DOCTYPE html>
+<!-- *Docktype tells browser which html to expect. Very first thing on a webpage -->
+<html lang="en">
+  <!-- Comment Block: Open 
+    <element>Content</element>
+    <h1>Heading</h1> === Heading Element 
+    <p>Paragraph</p> === Paragraph element 
+    <img src="..." === Image Element 
+    <br /> === Line Break
+Comment BLock:CLose  -->
+
+  <head>
+    <!--Google takes a look at the meta tags.-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="descripion" content="Awesome blog by Traversy media" />
+    <meta name="keyboards" content="web design blog,web dev blog," />
+    <title>Welcome To Octo-22</title>
+    <!-- Bring in Styling-->
+    <link rel="stylesheet" href="Styling.css"
+  </head>
+
+  <body>
+    <!-- Inserting Image -->
+    <center>
+      <img src="Logo.png" height="100" width="100" / alt="November 1 Trade
+      Image">
+    </center>
+    <h1>Header One</h1>
+    <h2>Header Two</h2>
+    <p>
+      This is where a paragraph maybe inserted. How does the spacing in
+      particular work.Line spacing and indent are irrelevant here
+    </p>
+    <p>Another set of paragraph. Notice indentation.</p>
+    <!-- four character commenting-->
+    <!--Relative vs absolute path. RelativePath:if it's in the same folder -->
+
+    <!-- use ../ when using relative path folder-->
+    <!-- Image loads the same pixels but re-sized view-->
+    <!-- <center><img src="NOV1-DP.png" height="500" width="700"/ alt="November 1 Trade Image"></center>-->
+    <hr />
+    <!-- hr tag makes a horizontal line possibly to make indentions and readability?-->
+
+    <!-- creating a hyperlink-->
+    <a href="https://google.com">Click here to be redirected to google</a>
+
+    <!-- To create a list. Ul.Unordered list, wrapped in li tag. -->
+    <ul>
+      <li>Item1</li>
+      <li>Item2</li>
+    </ul>
+
+    <!-- To create a list. OI.Ordered list, wrapped in li tag. -->
+    <ol>
+      <li>Item1</li>
+      <li>Item2</li>
+    </ol>
+
+    <!-- Div tags are used to group elements together into sections like an invisible box.-->
+    <div id="Header">
+      <h1>Welcome to my website</h1>
+    </div>
+
+    <!-- Class and id and attributes of div.-->
+    <div class="my-class">
+      <h2 class="my-class">Homepage</h2>
+      <p>Paragraph below.Hope you like it</p>
+    </div>
+
+    <div class="my-other-class">
+      <!-- GOogle html entities: to find more copyright labels and what not-->
+      Copyright &copy;2019 Aaron S
+    </div>
+
+    <!--SPAN TAG-->
+    <script>
+      document.write("Embedded document.write inside html file");
+    </script>
+
+    <footer>
+      <script src="TextBoxClick.js"></script>
+    </footer>
+
+    <input id="TextBoxOne" placeholder="Enter name" />
+    <br />
+    <button onclick="functionOne()" id="buttonOne">Click!</button>
+
+    <br /><br /><br /><br />
+    The redirection
+    <a href="calculatorPage.html" target="=" _blankspace
+      >Redirect Calculator page
+    </a>
+    <!-- Target = "blacnkspace opens up in an another tag-->
+
+    <div contenteditable="true">
+      Text Can be Edited by user.
+    </div>
+
+    <!-- The redirection <a href="LearnJs.html" target="="_blankspace>Redirect Calculator page </a> -->
+
+    <br /><br /><br /><br /><br />
+
+    <body>
+      <!--Headings. [coming from comments]-->
+      <h1 id="main-header">Heading One</h1>
+      <h2>Heading Two</h2>
+      <h3>Heading Three</h3>
+      <h4>Heading Four</h4>
+      <h5>Heading Five</h5>
+      <h6>Heading Six</h6>
+      <!--Paragraphs.-->
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque suscipit
+        similique ab ad, rem error quam repellendus rerum sed veniam aperiam,
+        exercitationem <strong>HI</strong>illum minima consectetur quae soluta
+        cum nisi accusantium. Typing lorem::can generate grandom code Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Rem, molestiae?
+      </p>
+      <!--List-->
+      <ul>
+        <li>List Item 1</li>
+        <li>List Item 1</li>
+        <li>List Item 1</li>
+        <li>List Item 1</li>
+      </ul>
+      <ol>
+        <li>List Item 1</li>
+        <li>List Item 1</li>
+        <li>List Item 1</li>
+        <li>List Item 1</li>
+      </ol>
+      <!--Tables for Tabular Data. Should not be used for layouts-->
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Age</th>
+          </tr>
+        </thead>
+        <tr>
+          <td>Brad</td>
+          <td>Joe</td>
+        </tr>
+      </table>
+
+      <!--Horizontal Line-->
+      <hr />
+
+      <!--Forms-->
+      <form action="process.php" method="POST">
+        <label>First Name</label>
+        <input type="text" name="first-name" />
+        <div>
+          <label>Message</label>
+          <textarea></textarea>
+        </div>
+        <div>
+          <label>Gender</label>
+          <select name="gender">
+            <option value="male">male</option>
+            <option value="female">female</option>
+          </select>
+        </div>
+        <div>
+          <label>Birthday:</label>
+          <input type="date" name="birthday" />
+          <input type="text" name="firstName" placeholder="enter first name" />
+        </div>
+        <input type="submit" name="submit" value="Submit" />
+      </form>
+      <!--Button-->
+      <button>Click Me</button>
+      <!--Image -->
+      <br />
+      <img
+        src="../Images/Logo.png"
+        alt="alernative if image doesnt load"
+        width="200"
+        height="auto"
+      />
+      <!--Quotations-->
+      <blockquote cite="http://traversymedia.com">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus
+        dicta nobis nemo architecto velit ipsa est necessitatibus earum iusto
+        obcaecati minus accusamus distinctio ad, officiis sint labore
+        perferendis deserunt animi.
+      </blockquote>
+      <p>The<abbr title="World Wide Web">WWW</abbr> is awesome</p>
+      <p>The<abbr title="World Wide Web">WWW</abbr></p>
+      <script>
+        //Practice of Keeping Script Tags Towards the end
+      </script>
+    </body>
+  </body>
+  <!-- 
+    'Single Quote'
+    "Double quote"
+    //BackSlash
+    /n New Line
+    /r carriage return
+    /t tab
+    /b backspace
+    /f form feed
+  -->
+</html>
