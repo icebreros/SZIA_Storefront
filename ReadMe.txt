@@ -17,7 +17,7 @@ C - Conflict (There is a conflict in the file)
 R - Renamed (The file has been renamed
 
 
-Useful Commands 
+Getting Setup 
 git config --global user.email “EMAIL”
 git config --global user.name “GITHUB”_Username
 git rm --cached giant_file# Stage our giant file for removal, but leave it on disk
